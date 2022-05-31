@@ -10,7 +10,7 @@ public class App {
         if(args.length != 1) {
             System.out.println("전달된 환경 변수가 존재하지 않습니다.");
             System.out.println("Usage : java Main class.name.of.ConcreteFactory");
-            System.out.println("Example : java Main listFactory.ListFactory");
+            System.out.println("Example : java Main abstractFactoryPattern.listfactory.ListFactory");
         }
 
         final Factory factory = Factory.getFactory(args[0]);

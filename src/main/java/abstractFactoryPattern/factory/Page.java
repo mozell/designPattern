@@ -21,8 +21,9 @@ public abstract class Page {
 
     public void output() {
         try {
+            String path = "D:\\_STUDY\\designPattern\\src\\main\\java\\abstractFactoryPattern\\";
             String filename = title + ".html";
-            Writer writer = new FileWriter(filename);
+            Writer writer = new FileWriter(path + filename);
             writer.write(this.makeHTML());
             writer.close();
             System.out.println(filename + " 을 작성했습니다.");
