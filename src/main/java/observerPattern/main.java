@@ -1,6 +1,5 @@
 package observerPattern;
 
-
 import observerPattern.opserver.DigitObserver;
 import observerPattern.opserver.GraphObserver;
 import observerPattern.opserver.RandomNumberGenerator;
